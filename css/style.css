@@ -5,6 +5,7 @@
 
 @import url('https://fonts.googleapis.com/css?family=Rajdhani:300,400,500,600,700');
 @import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam:wght@300;400;500;600;700&display=swap');
 
 @font-face {
      font-family: 'Rocher';
@@ -48,7 +49,7 @@ html {
 body {
      color: #666666;
      font-size: 14px;
-     font-family: Poppins;
+     font-family: 'Be Vietnam';
      line-height: 1.80857;
      font-weight: normal;
      overflow-x: hidden;
@@ -318,7 +319,8 @@ button {
      left: 15px;
      width: 50px;
 }
-.toggle_menu img{
+
+.toggle_menu img {
      width: 50px;
 }
 
@@ -420,6 +422,7 @@ ul.social-icons {
 .social-icons a {
      color: #000;
      text-decoration: none;
+     font-size: 42px;
 }
 
 .fa-facebook {
