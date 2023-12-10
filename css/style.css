@@ -228,7 +228,8 @@ button {
 .header_section {
      width: 100%;
      float: left;
-     background-image: url(../images/banner-bg.png);
+     background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+               rgba(0, 0, 0, 0.5)), url(../images/banner-bg.png);
      height: auto;
      background-size: 100%;
      padding: 10px 0px 90px 0px;
@@ -378,7 +379,7 @@ button {
      width: 100%;
      float: left;
      font-size: 60px;
-     color: #120101;
+     color: #fdf14d;
      font-weight: bold;
 }
 
@@ -406,7 +407,7 @@ button {
 }
 
 .social-icon {
-     color: #000;
+     color: #ffffff;
 }
 
 ul.social-icons {
@@ -420,7 +421,7 @@ ul.social-icons {
 }
 
 .social-icons a {
-     color: #000;
+     color: #ffffff;
      text-decoration: none;
      font-size: 42px;
 }
@@ -435,7 +436,7 @@ ul.social-icons {
 }
 
 .fa-facebook:hover {
-     color: #ffffff;
+     color: #3700ff;
 }
 
 .fa-twitter {
@@ -448,7 +449,7 @@ ul.social-icons {
 }
 
 .fa-twitter:hover {
-     color: #ffffff;
+     color: #2fe0ff;
 }
 
 
@@ -462,7 +463,7 @@ ul.social-icons {
 }
 
 .fa-linkedin:hover {
-     color: #ffffff;
+     color: #ff32e4;
 }
 
 .fa-instagram {
@@ -475,7 +476,7 @@ ul.social-icons {
 }
 
 .fa-instagram:hover {
-     color: #ffffff;
+     color: #9f29ff;
 }
 
 .about_section {
@@ -531,7 +532,8 @@ ul.social-icons {
 .company_section {
      width: 100%;
      float: left;
-     background-image: url(../images/img-2.png);
+     background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+               rgba(0, 0, 0, 0.5)), url(../images/img-2.png);
      height: auto;
      padding-bottom: 25px;
      background-size: 100%;
@@ -554,6 +556,17 @@ ul.social-icons {
      border: 2px solid #f0e4e4;
      padding: 50px 30px;
      margin-top: 60px;
+}
+
+
+.compant_taital li {
+
+     margin-bottom: 10px;
+}
+
+.compant_taital strong {
+     color: #1cddff;
+     font-size: 24px;
 }
 
 .ship_section {
