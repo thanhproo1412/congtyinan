@@ -846,6 +846,17 @@ ul.social-icons {
      padding-top: 30px;
 }
 
+.map_text_2 a {
+     width: 100%;
+     font-size: 24px;
+     color: #ffffff;
+     padding-top: 30px;
+}
+
+.map_text_2:hover a {
+     color: #008cff;
+}
+
 
 .map_icon {
      padding-left: 20px;
