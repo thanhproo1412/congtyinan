@@ -1096,21 +1096,20 @@ ul.social-icons {
 
 /* Add these styles to your existing CSS file or style section */
 
-.seemore_main {
+.button-middle {
      display: flex;
      justify-content: center;
      align-items: center;
-     padding-top: 5rem; /* Adjust the top padding as needed */
-   }
+     padding-top: 5rem;
+     /* Adjust the top padding as needed */
+}
 
-   .button-middle a {
+.button-middle a {
      display: flex;
      justify-content: center;
      align-items: center;
      text-decoration: none;
-     width: 120px; /* Adjust the width as needed */
+     width: 120px;
+     /* Adjust the width as needed */
      cursor: pointer;
-   }
-   
-
-   
+}
